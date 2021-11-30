@@ -71,8 +71,8 @@
   
  
   <h4>Downloading and Installing WAMP Server</h4>
-    1. Open [this link](https://www.wampserver.com/en/)<br>
-    2. Click **DOWNLOAD** in the navbar<br>
+    1. Open https://www.wampserver.com/en/ <br>
+    2. Click DOWNLOAD in the navbar<br>
     3. Download the version of WampServer depending on which bit your PC is (32 or 64)<br>
     4. Open the .exe file (should be named wampserver(versionnumber)_x_(32 or 64, depends on PC))<br>
     5. Go through the installation steps and finish installing WampServer<br><br>
