@@ -87,6 +87,8 @@
     2. Click the arrow on the task bar at the bottom right and left click on the WampServer icon and click "Localhost"<br>
     3. Once your default browser has opened, in the search bar type in "localhost/index.html"<br>
     4. If you have set a port in WampServer then you have to add your port number after localhost. Example, localhost:(portnumber)/index.html<br>
-    5. The program is now running!
+    5. The program is now running!<br><br>
     
+   <h2>Final Report</h2>
+   The pdf file for the final report is uploaded to the git.
     
