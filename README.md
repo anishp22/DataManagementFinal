@@ -16,7 +16,7 @@
  <h2>How to Install</h2>
  
  <h3>Disclaimer</h3>
-  You must create your own database with the following tables: 
+  You must create your own database with the following tables: <br>
   - Customers
   - Hosts
   - Vehicles
