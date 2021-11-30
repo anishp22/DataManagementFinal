@@ -22,23 +22,52 @@
   - Vehicles<br>
   - Bookings<br>
   
-  The primary keys and foreign keys are listed below for each table.<br><br>
+  The format for each table is below<br><br>
+  
   
   **Customers**<br>
-  Primary Key: c_id (integer datatype)<br>
-  Foreign Keys: None<br><br>
+  | Column | Datatype |
+| --- | --- |
+| `c_id` | Primary Key, the customer id (integer datatype)|
+| `fname` | First name of the customer (varchar datatype) |
+| `lname` | Last name of the customer (varchar datatype) |
+| `address` | Address of the customer (varchar datatype) |
+| `telephone` | Telephone number of the customer (varchar datatype) |
+| `email` | Email address of the customer (varchar datatype)|
   
   **Hosts**<br>
-  Primary Key: h_id (integer datatype)<br>
-  Foreign Keys: vehicle_id <br><br>
+  | Column | Datatype |
+| --- | --- |
+| `h_id` | Primary Key, the host id (integer datatype)|
+| `SIN` | SIN number of the host (integer datatype) |
+| `fname` | First name of the host (varchar datatype) |
+| `lname` | Last name of the host (varchar datatype) |
+| `address` | Address of the host (varchar datatype) |
+| `telephone` | Telephone number of the host (varchar datatype)|
+| `email` | Email address of the customer (varchar datatype)|
+| `vehicle_id` | Foreign Key, vehicle id of the hosts car (integer datatype)|
   
   **Vehicles**<br>
-  Primary Key: v_id (integer datatype)<br>
-  Foreign Keys: hosts_id <br><br>
+  | Column | Datatype |
+| --- | --- |
+| `v_id` | Primary Key, the vehicle id (integer datatype)|
+| `host_id` | Foreign Key, the hosts id (integer datatype)|
+| `brand` | Brand of the car (varchar datatype) |
+| `model` | Model of the car (varchar datatype) |
+| `v_year` | Year of the car (integer datatype) |
+| `v_type` | Type of the car (varchar datatype) |
+| `location` | Location of where the car for rent is for pickup (varchar datatype)|
+| `daily_cost` | Cost of renting the car per day (integer datatype)|
   
   **Bookings**<br>
-  Primary Key: b_id (integer datatype)<br>
-  Foreign Keys: hosts_id, customer_id, vehicle_id <br><br>
+  | Column | Datatype |
+| --- | --- |
+| `b_id` | Primary Key, the booking id (integer datatype)|
+| `host_id` | Foreign Key, the hosts id (integer datatype) |
+| `customer_id` | Foreign Key, the customers id (integer datatype)|
+| `vehicle_id` | Foreign Key, the vehicles id (integer datatype) |
+| `start_date` | Year of the car (date datatype) |
+| `end_date` | Type of the car (date datatype) |
   
  
   <h4>Downloading and Installing WAMP Server</h4>
