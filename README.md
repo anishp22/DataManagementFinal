@@ -17,7 +17,29 @@
  
  <h3>Disclaimer</h3>
   You must create your own database with the following tables: 
-  ⋅⋅* Unordered sub-list. 
+  - Customers
+  - Hosts
+  - Vehicles
+  - Bookings
+  
+  The primary keys and foreign keys are listed below for each table.
+  
+  **Customers**
+  Primary Key: c_id (integer datatype)
+  Foreign Keys: None
+  
+  **Hosts**
+  Primary Key: h_id (integer datatype)
+  Foreign Keys: vehicle_id 
+  
+  **Vehicles**
+  Primary Key: v_id (integer datatype)
+  Foreign Keys: hosts_id 
+  
+  **Bookings**
+  Primary Key: b_id (integer datatype)
+  Foreign Keys: hosts_id, customer_id, vehicle_id 
+  
  
   <h4>Downloading and Installing WAMP Server</h4>
     1. Open [this link](https://www.wampserver.com/en/)
